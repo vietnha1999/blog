@@ -9,29 +9,29 @@ tags: debugging
 
 ---
 
-# Trong phần này
+# Nội dung chính
 
-Tôi sẽ trình bày thành phần chính của việc triển khai trình gỡ lỗi trên Linux: `ptrace` system call. Tất cả mã trong bài viết này được phát triển trên Ubuntu 32-bit.
+Tôi sẽ trình bày thành phần chính của việc triển khai trình gỡ lỗi trên Linux: `ptrace` syscall. Tất cả mã trong bài viết này được phát triển trên Ubuntu 32-bit.
 
-# Động lực
+# Tính năng của một trình gỡ lỗi
 
 Trình gỡ lỗi có thể:
 
 * Đi từng bước trong mã
     
-* Đặt các điểm dừng và chạy tới chúng
+* Đặt điểm dừng và chạy tới nó
     
-* Kiểm tra giá trị của các biến và dấu vết ngăn xếp
+* Kiểm tra giá trị của biến và dấu vết ngăn xếp
     
 
 Một số trình gỡ lỗi có tính năng nâng cao:
 
-* Thực hiện các biểu thức và gọi các hàm
+* Thực hiện biểu thức và gọi hàm
     
-* Thay đổi mã của tiến trình đang chạy và theo dõi sự thay đổi
+* Thay đổi mã của tiến trình đang chạy và theo dõi sự ảnh hưởng
     
 
-# ptrace
+# Khả năng của ptrace
 
 ptrace cho phép một tiến trình:
 
