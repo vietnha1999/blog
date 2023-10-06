@@ -1,5 +1,5 @@
 ---
-title: "Trình gỡ lỗi trong Linux hoạt động như thế nào - Phần 1"
+title: "[Linux] Trình gỡ lỗi hoạt động như thế nào - Phần 1"
 datePublished: Wed May 17 2023 04:08:12 GMT+0000 (Coordinated Universal Time)
 cuid: clhr6n725000h09mk3wgyb3ko
 slug: linux-how-debuggers-work
