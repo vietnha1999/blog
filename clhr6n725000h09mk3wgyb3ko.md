@@ -2,7 +2,7 @@
 title: "[Linux] Trình gỡ lỗi hoạt động như thế nào - Phần 1"
 datePublished: Wed May 17 2023 04:08:12 GMT+0000 (Coordinated Universal Time)
 cuid: clhr6n725000h09mk3wgyb3ko
-slug: linux-how-debuggers-work
+slug: linux-how-debuggers-work-part-1
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696493200003/26861d05-e5a3-49a2-9343-c4d5e5b33643.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1696403093867/7b255503-f2b8-4f33-83af-4cf500ffa417.png
 
