@@ -5,7 +5,6 @@ cuid: clhr6n725000h09mk3wgyb3ko
 slug: linux-how-debuggers-work
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696493200003/26861d05-e5a3-49a2-9343-c4d5e5b33643.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1696403093867/7b255503-f2b8-4f33-83af-4cf500ffa417.png
-tags: linux, debugging
 
 ---
 
