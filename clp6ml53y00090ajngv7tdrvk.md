@@ -24,7 +24,7 @@ Có 3 cách để đồng bộ hóa:
     
 * làm cho biến trạng thái immutable
     
-* sử dụng đồng bộ hóa bất cứ khsử dụng đồng bộ hóa bất cứ khi nào truy cập vào biến trạng thái
+* sử dụng đồng bộ hóa bất cứ khi nào truy cập vào biến trạng thái
     
 
 # Race condition
