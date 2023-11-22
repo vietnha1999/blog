@@ -34,13 +34,13 @@ Output: [1,6,2,8,7,3,9,4,12,10,5,13,11,14,15,16]
 
 **Constraints:**
 
-* `1 <= nums.length <= 10<sup>5</sup>`
+* `1 <= nums.length <= 10^5`
     
-* `1 <= nums[i].length <= 10<sup>5</sup>`
+* `1 <= nums[i].length <= 10^5`
     
-* `1 <= sum(nums[i].length) <= 10<sup>5</sup>`
+* `1 <= sum(nums[i].length) <= 10^5`
     
-* `1 <= nums[i][j] <= 10<sup>5</sup>`
+* `1 <= nums[i][j] <= 10^5`
     
 
 ```java
