@@ -84,7 +84,8 @@ for (var list: nums) {
 }
 ```
 
-Để trả về kết quả thì mình duyệt đường chéo từ "thấp nhất" và thêm vào mảng kết quả là xong. Tuy nhiên, khi test, mình nhận được thứ tự các phần tử cùng một đường chéo bị ngược so với mong đợi. Vì vậy, mình sửa lại là duyệt từ cuối mảng về đầu mảng là xong:
+Để trả về kết quả thì mình duyệt từ đường chéo "thấp nhất" và thêm vào mảng kết quả là xong.  
+Tuy nhiên, khi test, mình nhận được thứ tự các phần tử cùng một đường chéo bị ngược so với mong đợi. Vì vậy, mình sửa lại là duyệt từ cuối mảng về đầu mảng là xong:
 
 ```java
 int[] res = new int[totalElement];
@@ -99,3 +100,5 @@ for (int i = 0; i < maxLevel; i++) {
 
 return res;
 ```
+
+Hôm nay đến đây thôi, nửa đêm rồi.
