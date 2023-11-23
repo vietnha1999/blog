@@ -128,7 +128,8 @@ ans.add(isArithmetic);
 
 Độ phức tạp thời gian của cách này là O(nlogn + m\*n).
 
-Nhưng cách này mình chỉ đánh bại 33,52%. Không hiểu =)) Thử xem Hint thì thấy cách họ gợi ý giống với cách ngây thơ mình nghĩ ban đầu. Làm lại thôi.  
-Kỳ lạ, cách ngây thơ đánh bại 94,51%. Chắc là do cách O(nlogn + m\*n) luôn phải duyệt cả mảng nums ban đầu nên chậm hơn.
+Nhưng cách này mình chỉ đánh bại 33,52%.  
+Sau khi xem Hint thì biết là cách họ gợi ý giống với cách ngây thơ mình nghĩ ban đầu. Làm lại thôi.  
+Kỳ lạ, cách ngây thơ đánh bại 94,51%. Chắc là do cách O(n\*logn + m\*n) luôn phải duyệt cả mảng nums ban đầu nên chậm hơn.
 
 Bài này còn có một cách nhanh hơn (mình xem lời giải) là lưu lại nums\[i\] trong khoảng từ min(nums\[i\]) cho tới max(nums\[i\]) và tính trước khoảng cách mong đợi giữa hai phần tử nhờ một công thức nào đó. Mình chưa làm cách này, chỉ hiểu qua loa giải pháp vậy thôi.
