@@ -98,6 +98,19 @@ JSON policy document structure
     * Physical devices
         
 
+### IAM Security tools
+
+* IAM Credential report (account-level)
+    
+    * Danh sách users của account
+        
+    * Trạng thái đăng nhập của users
+        
+* IAM Access advisor (user-level)
+    
+    * Các service permissions được gán cho user và thời gian gian truy cập gần nhất của service đó
+        
+
 ### IAM Roles
 
 * Một vài services sẽ cần thực hiện hành động thay mặt bạn
